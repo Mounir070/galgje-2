@@ -1,3 +1,13 @@
+# random woord word gekozen en door puntjes vervangen 
+
+  hetwoord= random.choice(woordenlijst)
+  lengtewoord = len(hetwoord)
+  puntjes = [" ~ "] *lengtewoord
+  ja = "ja"
+  nee = "nee"
+
+
+
 # introductie
   naam = input("Vul hier je naam in: ")
   print()
