@@ -18,3 +18,22 @@
     #speler kan kiezen om opnieuw te spelen
     if userGuess == ja:
        spel()
+       if userGuess == nee:
+       quit()
+    #letter verschijnt als ie geraden is
+    else:
+      if userGuess in hetwoord:
+        for idx, letter in enumerate(hetwoord):
+          
+          if(letter == userGuess):
+            puntjes[idx] = userGuess
+      #als er een foute gok is      
+      else:
+        turns -= 1
+        drawgalgjes()
+    print(''.join(puntjes))
+
+  if userGuess not in validLetters:
+   turns -= 1
+   
+spel()
