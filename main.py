@@ -1,3 +1,15 @@
+if turns == 1:
+        print("""     ____
+      | \|
+      o  |
+     /|\ |
+     / \ |
+         |
+    _____|""")
+    #als je verloren hebt
+        print("Schande!, Je hebt het woord", hetwoord, "niet kunnen raden")
+        print("Je kan het nog een keer proberen, type ja of nee")
+  
 # de woorden die gebruikt gaan worden
   woordenlijst = ["informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier",
   "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk"]
