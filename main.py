@@ -1,3 +1,9 @@
+ import random
+def spel() :
+
+  turns = 10
+  #de galgjes die getekend worden met desbetreffende aantal levens
+  def drawgalgjes():
  if turns == 9:
         print("Jammer, nog 8 pogingen")
         print("""  
